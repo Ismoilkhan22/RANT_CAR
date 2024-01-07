@@ -1,2 +1,5 @@
-# RANT_CAR
-mashinalarni  malum vaqtga ijaraga beradigan proyekt
+# nasiya-rent-crm
+
+Nasiyaga Avtomobillarni vaqtinchalik icharaga berish uchun project
+
+
