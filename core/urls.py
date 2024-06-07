@@ -15,7 +15,6 @@ urlpatterns = [
     path('top/up/<int:user_id>/', top_up_user, name="top-up-user"),
     path('add/card/user/<int:user_id>/', add_card_to_user, name="add-to-user"),
 
-
     # users
     path("users/<int:ut>/", manage_user, name="users"),
     path("users/<int:ut>/add/<status>/", manage_user, name="users-add"),
@@ -29,12 +28,10 @@ urlpatterns = [
     path("cars/edit/<status>/<int:pk>/", manage_cars, name="cars-edit"),
     path("cars/filter/<key>/<int:pk>/", car_filter, name="cars-filter"),
 
-
     # brand
     path('<key>-crud/', manage_brand_and_ctg, name='ctg_brand_list'),
     path('<key>-crud/edit/<int:pk>/', manage_brand_and_ctg, name='ctg_brand_edit'),
     path('<key>-crud/delete/<int:pk>/<int:delete>/', manage_brand_and_ctg, name='ctg_brand_del'),
-
 
     # arenda
     path('arenda/<int:car_id>/', arenda_olish, name='arenda'),
@@ -42,8 +39,6 @@ urlpatterns = [
     path('arenda/pk-<int:pk>/st-<int:status>/', manage_arenda, name='arenda-manage'),
     path('arenda/view/', arenda_view, name='arenda-view'),
 
-
+    # api/v1/auth/
 
 ]
-
-
